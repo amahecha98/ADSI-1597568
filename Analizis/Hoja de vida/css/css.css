@@ -1,0 +1,49 @@
+@font-face {
+    font-family:'Gamja Flower';
+    src: url(../fonts/Gamja_Flower/GamjaFlower-Regular.ttf);
+}
+  
+body {
+    font-family:'Gamja Flower';
+    font-size:1.270rem;;
+    margin: 0em;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.logo {
+    width: 13em;
+    height: 16em;
+}
+
+.copy{
+    display: flex;
+    align-items: flex-end;
+}
+
+.left {
+    background-color:#BDBDBD;
+    flex-grow: 10;
+}
+
+.right{
+    background-color:#E6E6E6;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 3;
+}
+
+.box{
+    font-weight: bold;
+}
+
+.tile {
+    text-align: center;
+}
+.cop2{
+    display: none;
+}
+
