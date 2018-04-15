@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cronometro Cesar Mahecha</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css.css" />
+</head>
+<body>
+    <h1>cronometo de Cesar Mahecha</h1>
+    <!-- contenedor del cronometro-->
+        <div id="contenedor">
+                <div class="reloj" id="Horas">00</div>
+                <div class="reloj" id="Minutos">:00</div>
+                <div class="reloj" id="Segundos">:00</div>
+                <div class="reloj" id="Centesimas">:00</div>
+                <input type="button" class="boton" id="inicio" value="Start &#9658;" onclick="inicio();">
+                <input type="button" class="boton" id="parar" value="Stop &#8718;" onclick="parar();" disabled>
+                <input type="button" class="boton" id="continuar" value="Resume &#8634;" onclick="inicio();" disabled>
+                <input type="button" class="boton" id="reinicio" value="Reset &#8635;" onclick="reinicio();" disabled>
+            </div>
+<script src="js.js" type="text/javaScript"></script>
+</body>
+</html>

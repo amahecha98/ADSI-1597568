@@ -1,0 +1,46 @@
+    *{text-align: justify }
+    #text{font-family: 'Tangerine', cursive;
+            font-size: 30px;}
+    #center{margin: 2px auto;
+    text-align:right;
+    border:1px solid green;
+      font-size:18px;
+      width:200px;
+      height:20px;
+    border-radius: 10px 10px 10px 10px;}
+
+    #tn{margin: auto;
+        width: 400px;
+        height: 40px;
+        text-align:center;
+        background-color: orange;
+        font-size:30px;
+        border-radius: 10px 10px 10px 10px;}
+        
+body{
+        background-size:2000px;768px;
+        background-image:url(https://cdn.xgn.es/articles/970/l/los-mejores-especialistas-en-black-ops-3-81794-6.jpg)
+}
+      
+      
+     
+       
+      
+      a{
+        display:block;
+        background-color:lightgray;
+        color:#CC3300;
+      }
+      a:hover{background-color:coral;
+    text-align: center}
+      p {
+      background-color:lightgray;
+      color:#555;
+      }
+      h1{
+        text-align: center;
+        background-color: orange;}
+      h2{text-align:center;
+        background-color: orange;}
+      h3{text-align:center;
+        background-color:orange;}

@@ -1,0 +1,15 @@
+
+p{text-align: justify;
+}
+body{background-color: aliceblue;}
+ol{ text-align: justify;}
+h1 {text-align: center;
+color:olivedrab;}
+h2{ text-align: center;
+color:darkolivegreen}
+h3{text-align: center;
+ color:darkturquoise}
+div{background-color:powderblue;
+	margin: 1px auto;
+	width: 800px;
+}
