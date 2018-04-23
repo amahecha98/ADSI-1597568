@@ -1,0 +1,44 @@
+
+/* 
+    Created on : 22-abr-2018, 19:14:52
+ Author     : Adrian Mahecha <camahecha@misena.educ.co>
+*/
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0em;
+    height: 100vh;
+    background-color: aliceblue;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3fffb1;
+    width: 400px;
+    height: 300px;
+    border: dashed;
+    border-radius: 30px;
+}
+
+.two{
+    border: none;
+    background-color: transparent;
+    width: 10px;
+}
+input{
+    font-size: 18px;
+}
+select{
+   font-size: 20px;
+}
+button{
+    font-size: 20px;
+}
+p {
+    font-size: 22px;
+}
+
