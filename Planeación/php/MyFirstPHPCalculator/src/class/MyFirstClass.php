@@ -71,16 +71,16 @@ class MyFirstClass
      ************************************************************
      */
    
-    public function sum()
+    public function sum(): float
     {
         return $this->variable1 + $this->variable2;
     }
     
-    public function rest()
+    public function rest(): float
     {
         return $this->variable1 - $this->variable2; 
     }
-    public function mult()
+    public function mult():float 
     {
         return $this->variable1 * $this->variable2; 
     }
@@ -94,26 +94,26 @@ class MyFirstClass
     }
     public function divm(): float
      {
-     return $this->variable1 & $this->variable2;
+     return $this->variable1 % $this->variable2;
      }
-    public function log()
+    public function log(): float
     {
         return log ($this->variable1,$this->variable2);
     }
-    public function squared()
+    public function squared(): float
     {
         return $this->variable1 * $this->variable1;
     }
-    public function pow()
+    public function pow(): float
     {
          return pow($this->variable1, $this->variable2);
        
     }
-    public function sqrt()
+    public function sqrt(): float
     {
         return sqrt($this->variable1);
     }
-    public function root()
+    public function root(): float
     {
         return pow($this->variable1, (1/$this->variable2));
     }
