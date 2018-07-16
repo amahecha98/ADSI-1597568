@@ -1,0 +1,65 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08-may-2018, 19:10:57
+    Author     : adrianmahecha
+*/
+body{
+background-image: url(../img/arma.png) ;
+display: flex;
+flex-direction:column;
+align-items: center;
+justify-content: center;
+height: 100vh;
+}
+.table{
+    width: 50.25em;
+    border: 2px;
+    background-color:#0099ff;
+    border: solid;
+    
+}
+.one{
+    text-align: center;
+    
+}
+th{
+    border: solid;
+}
+td{
+    border: dotted;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.id{
+    border-right: solid;
+    border:solid;
+    
+}
+button{
+  height: 5rem;
+  width: 4.25em;
+  font-size: 3rem;
+  border-radius: .2em;
+  
+}
+.edit{
+    display: flex;
+    height: 4.25em;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+input{
+    justify-content: center;
+    text-align: center;
+    font-size: 1em;
+    border: solid;
+}
+

@@ -1,0 +1,42 @@
+
+/* 
+    Created on : 09-may-2018, 15:35:15
+    Author     : adrianmahecha
+*/
+
+@media (max-width:797.98px){
+    body{
+        
+        
+        
+        height: 100vh;
+        
+    }
+    .form{
+        height:600px;
+    }
+    button{
+        font-size: 2rem;
+    }
+    .insert{
+        background-color: #0000ff;
+        opacity: .8;
+        border-radius: .5em;
+    }
+    button{
+        background-color: #cc0033;
+        opacity: .8;    
+    }
+    .tl{
+        width:100px; 
+    }
+    
+    .ta{
+        align-items: stretch;
+    }
+    
+}
+
+
+
+
